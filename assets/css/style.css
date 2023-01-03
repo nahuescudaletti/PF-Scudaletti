@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.bgnav {
+  background-color: rgb(1, 37, 1);
+}
+
+@media (max-width: 767px) {
+  .ulbg {
+    background-color: rgb(4, 41, 1);
+  }
+}
+nav .nav-item a:hover {
+  color: greenyellow !important;
+}/*# sourceMappingURL=style.css.map */
