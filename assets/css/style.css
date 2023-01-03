@@ -5,18 +5,18 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: rgb(168, 155, 31);
   font-size: 22px;
 }
 
 .navbar-light .navbar-brand {
-  color: black;
+  color: rgb(212, 204, 128);
   font-size: 30px;
 }
 
-header {
+.background {
   height: 100vh;
   min-height: 400px;
   background-size: cover;
-  background-image: url(../img/arg.jpg);
+  background-image: url(../assets/img/arg.jpg);
 }/*# sourceMappingURL=style.css.map */
