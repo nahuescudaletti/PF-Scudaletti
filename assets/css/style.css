@@ -4,23 +4,19 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  padding: 0;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 22px;
 }
 
-.navbar-toggler:focus {
-  box-shadow: none;
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 30px;
 }
 
-.bgnav {
-  background-color: rgb(1, 37, 1);
-}
-
-@media (max-width: 767px) {
-  .ulbg {
-    background-color: rgb(4, 41, 1);
-  }
-}
-nav .nav-item a:hover {
-  color: greenyellow !important;
+header {
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image: url();
 }/*# sourceMappingURL=style.css.map */
