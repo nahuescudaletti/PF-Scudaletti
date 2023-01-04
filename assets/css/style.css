@@ -5,18 +5,54 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(168, 155, 31);
+  color: rgb(255, 255, 255);
   font-size: 22px;
 }
 
 .navbar-light .navbar-brand {
-  color: rgb(212, 204, 128);
+  color: rgb(255, 255, 255);
   font-size: 30px;
 }
 
-.background {
+header {
   height: 100vh;
   min-height: 400px;
   background-size: cover;
-  background-image: url(../assets/img/arg.jpg);
+  background-image: url(../img/messi.jpg);
+}
+
+.navbar-light .navbar-brand:hover {
+  color: rgb(236, 231, 156);
+  font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(236, 231, 156);
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 1980px) {
+  header {
+    background-position: 20% 53%;
+  }
+}
+@media only screen and (max-width: 1880px) {
+  header {
+    background-position: 20% 53%;
+  }
+}
+@media only screen and (max-width: 1454px) {
+  header {
+    background-position: 20% 100%;
+  }
+}
+@media only screen and (max-width: 898px) {
+  header {
+    background-position: 40% 33%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    background-position: 50% 33%;
+  }
 }/*# sourceMappingURL=style.css.map */
