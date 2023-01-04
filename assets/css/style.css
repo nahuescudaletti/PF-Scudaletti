@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -18,7 +19,7 @@ header {
   height: 100vh;
   min-height: 400px;
   background-size: cover;
-  background-image: url(..img/messi.jpg);
+  background-image: url(../img/messi.jpg);
 }
 
 .navbar-light .navbar-brand:hover {
@@ -54,5 +55,49 @@ header {
 @media only screen and (max-width: 600px) {
   header {
     background-position: 50% 33%;
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 800px;
+  height: 200px;
+  border: 1px solid #bdc3c7;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.nice {
+  background-color: #16a085;
+  color: rgb(255, 255, 255);
+}
+
+.tittle {
+  font-weight: 500;
+  text-align: center;
+  background-color: #16a085;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.nice1:hover {
+  background-color: rgba(255, 255, 255, 0.5490196078);
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
