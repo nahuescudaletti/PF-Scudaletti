@@ -18,7 +18,7 @@ header {
   height: 100vh;
   min-height: 400px;
   background-size: cover;
-  background-image: url(../img/messi.jpg);
+  background-image: url(..img/messi.jpg);
 }
 
 .navbar-light .navbar-brand:hover {
@@ -43,7 +43,7 @@ header {
 }
 @media only screen and (max-width: 1454px) {
   header {
-    background-position: 20% 100%;
+    background-position: 20% 60%;
   }
 }
 @media only screen and (max-width: 898px) {
