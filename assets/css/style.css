@@ -52,15 +52,16 @@ header {
     background-position: 40% 33%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   header {
     background-position: 50% 33%;
+  }
+  table, .tittle {
+    font-size: 70%;
   }
 }
 table {
   border-collapse: collapse;
-  width: 800px;
-  height: 200px;
   border: 1px solid #bdc3c7;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
@@ -72,7 +73,7 @@ tr {
 
 th,
 td {
-  padding: 12px;
+  padding: 5%;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
@@ -83,7 +84,7 @@ td {
 }
 
 .tittle {
-  font-weight: 500;
+  font-size: 160%;
   text-align: center;
   background-color: #16a085;
   color: #fff;
@@ -94,10 +95,4 @@ td {
   background-color: rgba(255, 255, 255, 0.5490196078);
   transform: scale(1.02);
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-}
-
-@media only screen and (max-width: 768px) {
-  table {
-    width: 90%;
-  }
 }/*# sourceMappingURL=style.css.map */
