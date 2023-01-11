@@ -6,30 +6,34 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
+  color: #f0f0f0;
   font-size: 22px;
 }
 
 .navbar-light .navbar-brand {
-  color: rgb(255, 255, 255);
+  color: #fdfdfd;
   font-size: 30px;
 }
 
 header {
   height: 100vh;
-  min-height: 400px;
   background-size: cover;
   background-image: url(../img/messi.jpg);
+  border-bottom: 5px solid rgb(255, 255, 255);
 }
 
 .navbar-light .navbar-brand:hover {
-  color: rgb(236, 231, 156);
+  color: #0f90d1;
   font-size: 30px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(236, 231, 156);
+  color: #0896dd;
   font-size: 22px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 @media only screen and (max-width: 1980px) {
@@ -39,27 +43,137 @@ header {
 }
 @media only screen and (max-width: 1880px) {
   header {
-    background-position: 20% 53%;
+    background-position: 20% 43%;
+    height: 100vh;
   }
 }
-@media only screen and (max-width: 1454px) {
+@media only screen and (max-width: 1400px) {
   header {
     background-position: 20% 60%;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 1254px) {
+  header {
+    background-position: 20% 30%;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  header {
+    background-position: 40% 33%;
+    height: 100vh;
   }
 }
 @media only screen and (max-width: 898px) {
   header {
     background-position: 40% 33%;
+    height: 100vh;
   }
 }
 @media only screen and (max-width: 400px) {
   header {
     background-position: 50% 33%;
+    height: 100vh;
   }
   table, .tittle {
-    font-size: 70%;
+    font-size: 70% !important;
   }
 }
+@media (min-width: 575px) {
+  .titarjeta {
+    font-size: 10px !important;
+  }
+}
+@media (min-width: 898px) {
+  .titarjeta {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 1112px) {
+  .titarjeta {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 200px) {
+  .relleno2 {
+    font-size: 7px !important;
+  }
+}
+@media (min-width: 332px) {
+  .relleno2 {
+    font-size: 10px !important;
+  }
+}
+@media (min-width: 400px) {
+  .relleno2 {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 575px) {
+  .relleno2 {
+    font-size: 8px !important;
+  }
+}
+@media (min-width: 633px) {
+  .relleno2 {
+    font-size: 10px !important;
+  }
+}
+@media (min-width: 718px) {
+  .relleno2 {
+    font-size: 13px !important;
+  }
+}
+@media (min-width: 1000px) {
+  .relleno2 {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .relleno2 {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .relleno2 {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 800px) {
+  .btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40vw !important;
+    height: 9vw !important;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  .botones1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    width: 70vw !important;
+    height: 9vw !important;
+    margin: 3% !important;
+  }
+  .botones {
+    margin: 6% !important;
+  }
+}
+.map {
+  border-top: 5px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
 table {
   border-collapse: collapse;
   border: 1px solid #bdc3c7;
@@ -71,23 +185,24 @@ tr {
   cursor: pointer;
 }
 
-th,
-td {
+th, td {
+  font-family: "Asap", sans-serif;
   padding: 5%;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
 .nice {
-  background-color: #16a085;
+  background-color: #10bcdc;
   color: rgb(255, 255, 255);
 }
 
 .tittle {
+  font-family: "Asap", sans-serif;
   font-size: 160%;
   text-align: center;
-  background-color: #16a085;
-  color: #fff;
+  background-color: #10bcdc;
+  color: rgb(255, 255, 255);
   padding: 10px 0px;
 }
 
@@ -95,4 +210,311 @@ td {
   background-color: rgba(255, 255, 255, 0.5490196078);
   transform: scale(1.02);
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  background-color: #00476b;
+  font-family: "Asap", sans-serif;
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.titulos {
+  background-color: #00476b;
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  font-family: "Asap", sans-serif;
+}
+
+.colorfooter {
+  font-family: "Poppins", sans-serif;
+  background: #0f0c29;
+  background: linear-gradient(to right, #0896dd, #00476b, #0896dd);
+}
+
+ul, li, a, p {
+  font-family: "Asap", sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30vw;
+  height: 5vw;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 400px;
+  z-index: 1;
+  transition: 0.5s;
+  backdrop-filter: blur(15px);
+}
+
+.btn:hover a {
+  letter-spacing: 3px;
+}
+
+.btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+  transform: skewX(45deg) translate(0);
+  transition: 0.5s;
+  filter: blur(0px);
+}
+
+.btn:hover a::before {
+  transform: skewX(45deg) translate(200px);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  bottom: -5px;
+  width: 10%;
+  height: 5%;
+  background: rgb(0, 4, 255);
+  border-radius: 10px;
+  transition: 0.5s;
+  transition-delay: 0.5;
+}
+
+.btn:hover::before {
+  bottom: 0;
+  height: 50%;
+  width: 80%;
+  border-radius: 30px;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top: -5px;
+  width: 10%;
+  height: 5%;
+  background: rgb(10, 186, 255);
+  border-radius: 10px;
+  transition: 0.5s;
+  transition-delay: 0.5;
+}
+
+.btn:hover::after {
+  top: 0;
+  height: 50%;
+  width: 92%;
+  border-radius: 30px;
+}
+
+h2 {
+  font-family: "Asap", sans-serif;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  background-color: #00476b;
+  font-family: "Asap", sans-serif;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+.css-button-3d--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3a86ff;
+  box-shadow: 0 5px #4433ff;
+}
+
+.css-button-3d--sky:hover {
+  box-shadow: 0 3px #4433ff;
+  top: 1px;
+}
+
+.css-button-3d--sky:active {
+  box-shadow: 0 0 #4433ff;
+  top: 5px;
+}
+
+.title {
+  font-family: "Asap", sans-serif;
+  -webkit-text-stroke: 1px black;
+  color: red;
+  font-weight: bold;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.card .content .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(241, 241, 241, 0.9019607843);
+  transition: 1s;
+  z-index: 1;
+  padding: 10px;
+}
+
+.from-left {
+  top: 0;
+  left: -100%;
+}
+
+.card:hover .content .from-left {
+  left: 0%;
+}
+
+.from-bottom {
+  top: 100%;
+  left: 0;
+}
+
+.card:hover .content .from-bottom {
+  top: 0%;
+}
+
+.from-right {
+  top: 0%;
+  right: -100%;
+}
+
+.card:hover .content .from-right {
+  right: 0;
+}
+
+.card .content .back .tem-img {
+  border-radius: 100%;
+}
+
+.titarjeta {
+  font-size: 4vw;
+}
+
+.coloraside {
+  font-family: "Poppins", sans-serif;
+  background: #0f0c29;
+  background: linear-gradient(to right, #05ffff, #05ffff, #05ffff, #05ffff, #ffffff, #ffffff, #ffee00, #ffee00, #ffffff, #ffffff, #05ffff, #05ffff, #05ffff, #05ffff);
+}
+
+.botonaside {
+  min-width: 30%;
+  height: 10%;
+  color: #fff;
+  padding: 5px px;
+  font-weight: bold;
+  font-size: 60% !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #212529;
+  color: #212529;
+  font-size: 80%;
+  text-align: center !important;
+}
+
+.botonaside:hover {
+  color: #fff;
+}
+
+.botonaside:hover:after {
+  height: 100%;
+}
+
+.botonaside:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #212529;
 }/*# sourceMappingURL=style.css.map */

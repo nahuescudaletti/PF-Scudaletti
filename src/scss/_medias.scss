@@ -5,24 +5,142 @@
 }
 @media only screen and (max-width:1880px){
     header{
-        background-position: 20% 53%;
+        background-position: 20% 43%;
+        height: 100vh;
     }
 }
-@media only screen and (max-width:1454px){
+@media only screen and (max-width:1400px){
     header{
         background-position: 20% 60%;
+        height: 100vh;
+    }
+}
+@media only screen and (max-width:1254px){
+    header{
+        background-position: 20% 30%;
+        height: 100vh;
+    }
+}
+@media only screen and (max-width:1100px){
+    header{
+        background-position: 40% 33%;
+        height: 100vh;
     }
 }
 @media only screen and (max-width:898px){
     header{
         background-position: 40% 33%;
+        height: 100vh;
     }
 }
 @media only screen and (max-width:400px){
     header{
         background-position: 50% 33%;
+        height: 100vh;
     }
     table, .tittle{
         font-size: 70% !important;
     }
+}
+
+@media (min-width:575px){
+    .titarjeta{
+        font-size: 10px !important;
+    }
+}
+@media (min-width:898px){
+    .titarjeta{
+        font-size: 15px !important;
+    }
+}
+@media (min-width:1112px){
+    .titarjeta{
+        font-size: 20px !important;
+    }
+}
+@media (min-width:200px){
+    .relleno2{
+        font-size: 7px !important;
+      }
+      
+    }
+@media (min-width:332px){
+    .relleno2{
+        font-size: 10px !important;
+      }
+      
+    }
+    @media (min-width:400px){
+        .relleno2{
+            font-size: 15px !important;
+        }
+        
+    }
+    @media (min-width:575px){
+        .relleno2{
+            font-size: 8px !important;
+          }
+          
+    }
+    @media (min-width:633px){
+        .relleno2{
+            font-size: 10px !important;
+          }
+          
+    }
+    @media (min-width:718px){
+        .relleno2{
+            font-size: 13px !important;
+          }
+          
+    }
+    @media (min-width:1000px){
+        .relleno2{
+            font-size: 20px !important;
+      }
+}
+@media (min-width:1200px){
+    .relleno2{
+        font-size: 14px !important;
+  }
+}
+@media (min-width:1400px){
+    .relleno2{
+        font-size: 18px !important;
+  }
+}
+@media (max-width:800px){
+    .btn {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40vw !important;
+        height: 9vw !important;
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+@media (max-width:700px){
+.botones1{
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn {
+    width: 70vw !important;
+    height: 9vw !important;
+    margin: 3% !important;
+}
+.botones{
+    margin: 6% !important;
+}
+}
+
+.map{
+    border-top: 5px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
